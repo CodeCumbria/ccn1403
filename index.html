@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Code Cumbria North 2014.03</title>
+
+<meta name="description" content="Introduction to Code Cumbria North 2014.03">
+<meta name="author" content="David Murphy">
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="css/reveal.min.css">
+<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+<!-- For syntax highlighting -->
+<link rel="stylesheet" href="lib/css/zenburn.css">
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+  <!-- Any section element inside of this container is displayed as a slide -->
+  <div class="slides">
+    <section>
+      <h1>Code Cumbria North 2014.03</h1>
+      <h3>Wednesday March 26th, 2014</h3>
+      <p>
+      <small>Created by <a href="http://schwuk.com">David Murphy</a> / <a href="http://twitter.com/schwuk">@schwuk</a></small>
+      </p>
+    </section>
+
+    <section>
+      <h2>Thanks to&hellip;</h2>
+      <ul>
+        <li>Carlisle Business Intercation Centre (C-BIC)<br /><small>University of Cumbria</small></li>
+        <li>Hannah Stewart<br /><small>Freerange Industries)</small></li>
+      </ul>
+      <h3>&hellip;for hosting us again.</h3>
+    </section>
+
+    <section>
+      <h2>Event details</h2>
+      <ul>
+        <li><a href="http://codecumbria.org/events/code_cumbria_north.html">Code Cumbria site</a></li>
+        <li><a href="http://http://lanyrd.com/2014/ccn1403/">Lanyrd</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Putting the social in social geekery</h2>
+      <p>Please share the love...</p>
+      <ul>
+        <li>Foursquare</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Google+</li>
+        <li>Instagram</li>
+        <li>Flickr</li>
+        <li>etc.</li>
+      </ul>
+      <p>Please use the hashtag <strong>#ccn1403</strong> when sharing.</p>
+    </section>
+
+    <section>
+      <h1>Stay in touch</h1>
+      <ul>
+        <li>email: hello@codecumbria.org</li>
+        <li>Twitter: @codecumbria</li>
+        <li>IRC: #codecumbria on Freenode</li>
+      </ul>
+    </section>
+
+    <section>
+      <h1>Acceptance testing with Behat, Mink & Selenium 2</h1>
+      <h3><a href="https://twitter.com/danmatthews">Daniel Matthews</a></h3>
+    </section>
+
+    <section>
+      <h1>The minimum you should know about email as a developer</h1>
+      <h3><a href="https://twitter.com/gavinmontague">Gavin Montague</a></h3>
+    </section>
+
+    <section>
+      <h1>Introducing DigiPi</h1>
+      <h3><a href="https://twitter.com/DIGI_PI">DIGIPI</a></h3>
+    </section>
+
+    <section>
+      <h1>Ansible: Provisioning for Vagrant</h1>
+      <h3><a href="https://twitter.com/hydrantmark">Mark Burns</a></h3>
+    </section>
+
+    <section>
+      <h1>Lightning talks</h1>
+    </section>
+
+    <section>
+      <h1>That's all folks!</h1>
+      <h3>http://codecumbria.org</h3>
+      <h3>hello@codecumbria.org</h3>
+      <h3>@codecumbria</h3>
+    </section>
+  </div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+controls: true,
+progress: true,
+history: true,
+center: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+// Parallax scrolling
+// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+// parallaxBackgroundSize: '2100px 900px',
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+]
+});
+
+</script>
+
+</body>
+</html>
